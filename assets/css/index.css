@@ -1,0 +1,106 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: #E3F2FD;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+}
+
+h1,
+h2,
+{
+    font-weight: bold;
+}
+
+.panel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #002a5c;
+    color: white;
+}
+
+.login-button {
+    width: 100%;
+}
+
+.login-button > div {
+    margin: 0 auto;
+}
+
+.main {
+    padding-top: 80px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px/* adjust here */
+    margin-bottom: -1px;
+    border: 1px solid #ddd;
+    line-height: 1em/* set to text height */
+}
+
+.panel-footer {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    margin-top: 5px;
+    background-color: inherit;
+}
+
+.panel-footer .btn {
+    padding: 5px 2px;
+}
+
+.jumbotron {
+    background-color: #002a5c;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 70px;
+    background-color: #002a5c;
+}
+
+.footer p {
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
